@@ -1,0 +1,7 @@
+
+timestamp,event_type,source,status,details,data_origin
+2026-10-20T10:00:00Z,beacon_detected,BLE,INFO,Configured test beacon detected,simulated
+2026-10-20T10:01:00Z,beacon_missing,BLE,WARNING,Expected test beacon not detected within configured interval,simulated
+2026-10-20T10:02:00Z,beacon_detected,BLE,INFO,Test beacon detected again,simulated
+2026-10-20T10:03:00Z,communication_failure,Wi-Fi,ERROR,Test communication channel unavailable,simulated
+2026-10-20T10:04:00Z,communication_restored,Wi-Fi,INFO,Test communication channel available again,simulated
