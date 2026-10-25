@@ -1,0 +1,41 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# Compiled firmware and build output
+build/
+dist/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+secrets.h
+credentials.h
+
+# Arduino IDE temporary files
+arduino_build_*/
+arduino_cache_*/
+
+# Local test outputs
+test-output/
+results-local/
